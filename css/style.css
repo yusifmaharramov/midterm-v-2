@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.firstimg {
+  background-color: white;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.imaggg {
+  width: 20%;
+  padding-top: 1%;
+}
+
+.navbar {
+  width: 90%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  width: 50%;
+  border-bottom: 2px solid lightgray;
+  margin-top: 1.5%;
+  margin-left: 5%;
+  padding-top: 1%;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 5%;
+  height: 79%;
+  padding-left: 1px;
+}
+
+.menu ul li {
+  list-style-type: none;
+  border-bottom: 5px solid transparent;
+  margin-top: 10px;
+}
+
+.menu ul li:hover {
+  border-bottom: 3px solid green;
+  cursor: pointer;
+}
+
+.navbar_yazi {
+  background-color: #253476;
+  color: white;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+}
+
+.lang {
+  border: none;
+}
+
+.chapter_2 {
+  margin-top: 2%;
+  margin-left: 10%;
+  border-radius: 10px;
+  width: 80%;
+  height: 300px;
+}
+
+.chapter_2 {
+  background-image: url(../img/img2.png);
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#text1 {
+  font-family: "Zilla Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 138%;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #27ae60;
+  margin-top: 50px;
+}
+
+#text2 {
+  font-family: "Zilla Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 138%;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #494949;
+}
+
+.textchapter1 {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.chapter_3 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#img3 {
+  width: 100%;
+}
+
+.chapter_4 {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+}
+
+.chapter_5 {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.eyniler {
+  width: 32%;
+  background: linear-gradient(180deg, rgba(28, 28, 28, 0) 40.37%, #000000 100%);
+  border-radius: 15px;
+}
+
+#sek1 {
+  background-image: url(../img/img4.png);
+}
+
+#sek2 {
+  background-image: url(../img/img5.png);
+}
+
+#sek3 {
+  background-image: url(../img/img6.png);
+}
+
+#sek4 {
+  background-image: url(../img/img7.png);
+}
+
+#sek5 {
+  background-image: url(../img/img8.png);
+}
+
+#sek6 {
+  background-image: url(../img/img9.png);
+}
+
+.sekiller {
+  width: 32%;
+  height: 350px;
+  border-radius: 15px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: start;
+}
+
+.eyniyazi {
+  margin-left: 20px;
+  color: white;
+}
+
+.boyukyazi {
+  color: white;
+  font-family: "Zilla Slab";
+  font-style: "SemiBold";
+  font-size: 27px;
+  text-decoration: underline;
+}
